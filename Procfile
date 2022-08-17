@@ -1,1 +1,1 @@
-web: node index.js
+web: node -Dserver.port=$PORT -jar target/*.war
